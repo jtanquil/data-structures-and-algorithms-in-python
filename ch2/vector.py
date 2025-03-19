@@ -101,7 +101,7 @@ class Vector:
   # syntax 3 * v.
   def __rmul__(self, scalar):
     """Returns a copy of the vector multiplied by a scalar factor."""
-    return self * scalar # since multiplication by a scalar is commutative
+    return self * scalar # since scalar multiplication and dot product are commutative
 
   # R-2.10. Implement the __neg__ method for the Vector class of Section 2.3.3.,
   # so that tthe expression -v returns a new vector instance whose coordinates 
